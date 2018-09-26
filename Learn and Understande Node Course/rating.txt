@@ -1,0 +1,1 @@
+I really liked this course because it explains from bottom to top all of the concepts needed to understand Node.js. It explains the V8 engine, Node itself and how to program in this platform.
