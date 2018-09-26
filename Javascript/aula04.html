@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Aula04</title>
+	<script type="text/javascript">
+		function change(){
+			var nome;//undefined
+			nome = null;
+			nome = 3 * 'pessoas';//NaN => Not a Number
+			nome = 1.7976931348623157e+308;//limite, +309 da Infinity, pode ser negativo tbm, -Infinity
+			nome = 2 + Infinity;//Infinity
+
+			const HORAS_DO_DIA = 24;
+
+			alert(nome);
+
+			var imagem = document.getElementById("DONT");
+			imagem.src = "img/pewds.png";
+		}
+	</script>
+</head>
+<body>
+	<img id="DONT" src="img/dont_click_me.png" alt="dont_click_me" onclick="change();" />
+</body>
+</html>
