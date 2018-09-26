@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>AddDialog</class>
+ <widget class="QDialog" name="AddDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>381</width>
+    <height>340</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="lblTitulo">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>10</y>
+     <width>341</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Adicionar Item</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lblFoto">
+   <property name="geometry">
+    <rect>
+     <x>11</x>
+     <y>81</y>
+     <width>26</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Foto:</string>
+   </property>
+   <property name="buddy">
+    <cstring>leFoto</cstring>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lblNome">
+   <property name="geometry">
+    <rect>
+     <x>11</x>
+     <y>107</y>
+     <width>31</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Nome:</string>
+   </property>
+   <property name="buddy">
+    <cstring>leNome</cstring>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lblDescricao">
+   <property name="geometry">
+    <rect>
+     <x>11</x>
+     <y>133</y>
+     <width>46</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Descrição</string>
+   </property>
+   <property name="buddy">
+    <cstring>leDescricao</cstring>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pbAdicionar">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>200</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Adicionar</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="leNome">
+   <property name="geometry">
+    <rect>
+     <x>63</x>
+     <y>107</y>
+     <width>261</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="placeholderText">
+    <string>Nome do item</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="leFoto">
+   <property name="geometry">
+    <rect>
+     <x>63</x>
+     <y>81</y>
+     <width>261</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="inputMask">
+    <string/>
+   </property>
+   <property name="placeholderText">
+    <string>Caminho da imagem</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="leDescricao">
+   <property name="geometry">
+    <rect>
+     <x>63</x>
+     <y>133</y>
+     <width>261</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="placeholderText">
+    <string>Descrição do item</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pbCaminhoFoto">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>80</y>
+     <width>31</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>...</string>
+   </property>
+  </widget>
+ </widget>
+ <tabstops>
+  <tabstop>leFoto</tabstop>
+  <tabstop>leNome</tabstop>
+  <tabstop>leDescricao</tabstop>
+  <tabstop>pbAdicionar</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>
