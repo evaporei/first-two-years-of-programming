@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Aula 42 - DOM API</title>
+        <style>
+        /*
+            div {
+                text-align: center;
+            }
+        */
+            img {
+                display: block;
+                margin: 0 auto;
+            }
+        
+            h1 {
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <h1 id="titulo">DOM API</h1>
+        <img src="img/gems.png" />
+        <p class="paragrafo">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dictum blandit felis, quis scelerisque ipsum malesuada ut. Quisque quis leo ac metus consectetur scelerisque nec in ipsum. Vivamus euismod posuere pretium. Aliquam in tempus urna, et pretium nisi. Donec malesuada lectus non enim ullamcorper blandit. Donec fringilla vel lectus ac consectetur. Vestibulum vulputate tortor ut odio tempor tincidunt. Curabitur varius auctor congue. Nullam at ipsum ac ligula suscipit luctus vitae vel urna. Maecenas vel ante mi. Vivamus faucibus molestie mauris at iaculis. Nunc eget rutrum ipsum, a facilisis risus. Nulla et mi aliquam, luctus turpis suscipit, pellentesque odio.</p>
+        
+        <table border="1">
+            <tr>
+                <th>Attributo</th>
+                <th>Valor</th>
+            </tr>
+        </table>
+
+        <fieldset>
+            <legend>Formulário</legend>
+            <form>
+                <div>
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" />
+                </div>
+                <div>
+                    <label for="estado">Estado:</label>
+                    <select id="estado" name="estados">
+                        <option value="">Selecione</option>
+                        <option value="AC">Acre</option>
+                        <option value="AL">Alagoas</option>
+                        <option value="AP">Amapá</option>
+                        <option value="AM">Amazonas</option>
+                        <option value="BA">Bahia</option>
+                        <option value="CE">Ceará</option>
+                        <option value="DF">Distrito Federal</option>
+                        <option value="ES">Espirito Santo</option>
+                        <option value="GO">Goiás</option>
+                        <option value="MA">Maranhão</option>
+                        <option value="MS">Mato Grosso do Sul</option>
+                        <option value="MT">Mato Grosso</option>
+                        <option value="MG">Minas Gerais</option>
+                        <option value="PA">Pará</option>
+                        <option value="PB">Paraíba</option>
+                        <option value="PR">Paraná</option>
+                        <option value="PE">Pernambuco</option>
+                        <option value="PI">Piauí</option>
+                        <option value="RJ">Rio de Janeiro</option>
+                        <option value="RN">Rio Grande do Norte</option>
+                        <option value="RS">Rio Grande do Sul</option>
+                        <option value="RO">Rondônia</option>
+                        <option value="RR">Roraima</option>
+                        <option value="SC">Santa Catarina</option>
+                        <option value="SP">São Paulo</option>
+                        <option value="SE">Sergipe</option>
+                        <option value="TO">Tocantins</option>
+                    </select>
+                </div>
+            </form>
+        </fieldset>
+        <button>Executar Javascript</button>
+        
+        <button>Remover Linha</button>
+        <script src="js/aula42.js"></script>
+    </body>
+</html>
