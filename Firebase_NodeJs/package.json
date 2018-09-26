@@ -1,0 +1,15 @@
+{
+  "name": "firebase_nodejs",
+  "version": "1.0.0",
+  "description": "a project to learn how to use firebase in node.js",
+  "main": "app.js",
+  "dependencies": {
+    "firebase": "^3.5.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Otávio Pace",
+  "license": "ISC"
+}
